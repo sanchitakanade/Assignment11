@@ -1,7 +1,7 @@
 <!-- Name: Sanchita Kanade
 	 Instructor Name: Zak Ruvalcaba
 	 Class: CS648.01 Modern Web Development Frameworks Fall 2019
-	 File: index.html 
+	 File: contactus.html 
 	 Assignment No.: 11
 -->
 
@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
-    <title>Welcome to Vecta Corp. - Home</title>
+    <title>Welcome to Vecta Corp. - Contact Us</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -28,7 +28,7 @@
         
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active"><a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a></li>
                 <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us</a>
                     <div class="dropdown-menu" aria-labelledby="dropdown01">
                         <a class="dropdown-item" href="#">Overview</a>
@@ -40,12 +40,12 @@
                 <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="solutions.html" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Solutions</a>
                     <div class="dropdown-menu" aria-labelledby="dropdown01">
                         <a class="dropdown-item" href="solutions.html#list-item-1">vProspect</a>
-                        <a class="dropdown-item" href="solutions.html#list-item-2">vConvert</a>
-                        <a class="dropdown-item" href="solutions.html#list-item-3">vRetain</a>
+                        <a class="dropdown-item" href="solutions.html#list-item-1">vConvert</a>
+                        <a class="dropdown-item" href="solutions.html#list-item-1">vRetain</a>
                     </div>
                 </li>
                 <li class="nav-item"><a class="nav-link" href="#">Support</a></li>
-                <li class="nav-item"><a class="nav-link " href="contactus.html">Contact Us</a></li>
+                <li class="nav-item active"><a class="nav-link" href="contactus.html">Contact Us</a></li>
             </ul>
         </div>
     </nav>
@@ -105,59 +105,50 @@
         </div>
                
         <div class="container">
-            <!-- Example row of columns -->
             <div class="row">
-                <div class="col-sm-12 col-md-4">
-                    <h3>Welcome</h3>
-                    <p>With innovative approaches and advanced methodologies, Vecta Corporation provides scalable business solutions to help companies achieve success through revenue increase, cost management, and user satisfaction. Our approach stems from the three most important business growth aspects: helping companies reach prospects, assist in converting prospects to customers, and assist in retaining those customers. This is accomplished through our interactive solutions and expertise in providing a memorable and positive user experience.</p>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <h3>Our Solutions</h3>
-                    <ul class="nav nav-tabs" id="myTab" role="tablist">
-                        <li class="nav-item"><a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><strong>vProspect</strong></a></li>
-                        <li class="nav-item"><a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false"><strong>vConvert</strong></a></li>
-                        <li class="nav-item"><a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false"><strong>vRetain</strong></a></li>
-                    </ul>
-                    <div class="tab-content" id="myTabContent">
-                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">Define and research your target audience, define your strategy to reach that audience and present a strong and memorable brand to that audience.</div>
-                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Create a highly user-friendly and easy-to-navigate information architecture that will help your prospects interact with the company on a highly interactive level.</div>
-                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">Build on existing customer relationships to improve productivity and maximize customer loyalty, while growing revenues.</div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <!--Collapse component-->
-                    <h3>Client Testimonials</h3>
-                    <p> 
-                    <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Aaron D. Tyres</a>
-                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Robin Banks</button>
-                    </p>
-                    <div class="row">
-                        <div class="col col-md-12">
-                            <div class="collapse multi-collapse" id="multiCollapseExample1">
-                                <div class="card card-body">
-                                    <p>Throughout the years we have worked with Vecta Corporation, we have always been amazed at the level of dedication and professionalism that they have provided us and our WGDC products. It is this commitment that has increased both our income and exposure exponentially.</p>
-                                    <p>Aaron D. Tyres <br>
-                                    <abbr title="Chief Executive Officer">CEO</abbr><br>    
-                                    American Rubber, Inc.
-                                    </p>
-                                </div>
+                <div class="col-md-8">
+                    <form>
+                        <div class="form-group">
+                            <br>
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="productinterest">Product Interest</label>
+                            <select class="form-control" id="productinterest">
+                            <option>vProspect 2.0</option>
+                            <option>vConvert 2.0</option>
+                            <option>vRetain 1.0</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <p>Number of Employees?</p>
+                            <div class="form-check"> 
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="1-10" checked>
+                                <label class="form-check-label" for="exampleRadios1">1-10</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="10-100">
+                                <label class="form-check-label" for="exampleRadios2">10-100</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="100+">
+                                <label class="form-check-label" for="exampleRadios3">100+</label>
                             </div>
                         </div>
-                        <div class="col col-md-12">
-                            <div class="collapse multi-collapse" id="multiCollapseExample2">
-                                <div class="card card-body">
-                                    <p>Incredible results from an incredible effort by the Vecta Corporation team! We are very pleased with the business benefits we have rceived by working with them.</p>
-                                    <p>Robin Banks<br>
-                                    <abbr title="Chief Technology Officer">CTO</abbr><br>    
-                                    Profits Financial, LLC.
-                                    </p>
-                                </div>
-                            </div>
+                        <div class="form-group">
+                            <label for="Questions">Questions / Comments</label>
+                            <textarea class="form-control" id="Questions" rows="3"></textarea>
                         </div>
-                    </div>
+                        <input type="submit" value = "Submit Form" class = "btn btn-info">
+                    </form>
                 </div>
             </div>
-        </div> <!-- /container --> 
+        </div> 
     </main>
             
     <footer class="container">
